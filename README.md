@@ -13,4 +13,6 @@ Line 50 of config.py may need to be changed depending upon the number of partici
 
 01_run_preprocessing.py: This file does data processing. It filters the data, removes bad channels providing a better data analysis. These processed data is saved into the file called “derivatives”.
 
+mne iclabel code.py: this code tests iclabel but it gives ""NoneType" object has not attribute "get_positions"" error. Montage is checked, it work separately but not in this code. 
+
 
